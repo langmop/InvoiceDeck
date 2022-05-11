@@ -13,6 +13,9 @@ export const DELETE_CLIENT = "DELETE_CLIENT"
 export const ADD_NEW_CLIENT = "ADD_NEW_CLIENT"
 export const FETCH_CLIENTS_BY_USER = 'FETCH_PROFILE_USER';
 
+export const ADD_NEW_PROJECT = "ADD_NEW_PROJECT";
+
+
 export const AUTH = "AUTH"
 export const LOGOUT = "LOGOUT"
 export const UPDATE_USER = "UPDATE_USER"

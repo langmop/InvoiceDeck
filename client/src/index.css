@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #f2f2f2;
 }
 
 .tb-container .Mui-focused {
@@ -25,6 +25,9 @@ body {
   padding-left: 10px !important;
 }
 
+.nav-color{
+  background-color:#F3EFD4!important;
+}
 .MuiPaper-elevation1 {
   box-shadow: none !important;
 }
@@ -225,6 +228,7 @@ main {
 }
 
 .nav-link {
+  padding-left:20px;
   display: flex;
   align-items: center;
   height: 3.8rem;
@@ -237,13 +241,15 @@ main {
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
-  color: var(--text-secondary);
+  color: white;
 }
 
 .link-text {
   display: none;
   margin-left: 1rem;
+  color:#007AF3;
 }
+
 
 .nav-link svg {
   width: 1.5rem;

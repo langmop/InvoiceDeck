@@ -3,7 +3,7 @@ import { useHistory, useLocation } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import decode from 'jwt-decode'
 import styles from './Header.module.css'
-
+import Initial from '../Initial/Initial.jsx'
 import Button from '@material-ui/core/Button';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
@@ -114,13 +114,22 @@ const Header = () => {
 
 
 
-    if(!user) return (
-        <div className={styles.header2}>
-         <img style={{width: '160px', cursor: 'pointer'}} onClick={()=> history.push('/')} src="https://i.postimg.cc/C5fxh51H/Arc-Invoice-Logo2.png" alt="arc-invoice" />
-        <button onClick={()=> history.push('/login')} className={styles.login}>Get started</button>
-        </div>
+    if(!user&&window.location.pathname!="/login") return (
+      <>
+      {console.log(window.location)}
+      <Initial></Initial>
+
+      </>
+        
+        // <div className={styles.header2}>
+        //  <img style={{width: '160px', cursor: 'pointer'}} onClick={()=> history.push('/')} src="https://i.postimg.cc/C5fxh51H/Arc-Invoice-Logo2.png" alt="arc-invoice" />
+        // <button onClick={()=> history.push('/login')} className={styles.login}>Get started</button>
+        // </div>
     )
-    return (
+    else if (window.location.pathname!="/login"){
+
+      return (
+        
         <div className={styles.header}>
             <div className={classes.root}>
       <div>
@@ -155,6 +164,12 @@ const Header = () => {
 
         </div>
     )
+
+    }
+    else{
+      return null
+    }
+    
 }
 
 export default Header

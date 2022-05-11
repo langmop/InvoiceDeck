@@ -1,6 +1,7 @@
-/* .pageContainer {
- background-color: white;
-} */
+.pageContainer {
+ text-align:center;
+ margin-top:100px;
+}
 
 .header {
   display: flex;

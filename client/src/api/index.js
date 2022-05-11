@@ -26,6 +26,8 @@ export const deleteClient =(id) => API.delete(`/clients/${id}`)
 export const fetchClientsByUser = (searchQuery) => API.get(`/clients/user?searchQuery=${searchQuery.search}`);
 
 
+export const addProject =( project ) => API.post('/projects', project)
+
 export const signIn =(formData)=> API.post('/users/signin', formData)
 export const signUp =(formData)=> API.post('/users/signup', formData)
 export const forgot = (formData) => API.post('/users/forgot', formData);
