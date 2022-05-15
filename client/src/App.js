@@ -17,7 +17,6 @@ import Header from './components/Header/Header';
 import Settings from './components/Settings/Settings';
 import Forgot from './components/Password/Forgot'
 import Reset from './components/Password/Reset'
-import EstimateAdd from './components/EstimateAdd/EstimateAdd'
 function App() {
 
   const user = JSON.parse(localStorage.getItem('profile'))
@@ -39,7 +38,6 @@ function App() {
           <Route path="/dashboard" exact component={Dashboard} />
           <Route path="/customers" exact component={ClientList} />
           <Route path="/forgot" exact component={Forgot} />
-          <Route path="/addProject" exact component={EstimateAdd} />
           <Route path="/reset/:token" exact component={Reset} />
           <Redirect exact from="/new-invoice" to="/invoice" />
 

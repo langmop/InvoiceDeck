@@ -180,7 +180,7 @@ const Dashboard = () => {
 
             {paymentHistory.length !== 0 && (
             <section>
-                <Chart paymentHistory={paymentHistory} />
+                {/* <Chart paymentHistory={paymentHistory} /> */}
             </section>
             )}
 

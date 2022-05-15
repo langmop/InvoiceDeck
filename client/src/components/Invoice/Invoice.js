@@ -186,9 +186,9 @@ const Invoice = () => {
         const total =() => {
             
             //Tax rate is calculated as (input / 100 ) * subtotal + subtotal 
-            const overallSum = rates /100 * subTotal + subTotal
+            const overallSum = Math.round(rates /100 * subTotal + subTotal)
             //VAT is calculated as tax rates /100 * subtotal
-            setVat(rates /100 * subTotal)
+            setVat(Math.round(rates /100 * subTotal))
             setTotal(overallSum)
 
 

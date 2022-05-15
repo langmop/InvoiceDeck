@@ -123,8 +123,8 @@ hr {
     <body>
         <div class="layout">
         <div class="content">
-            <img src=${company.logo} class="logo" />
-            <h1 class="name">${company.businessName ? company.businessName : company.name}</h1>
+            <img src='https://cdn.discordapp.com/attachments/902222411368370219/957661005280845874/Invoice_Deck-logos_black.png' class="logo" />
+            <h1 class="name">Invoice Deck</h1>
             
               <hr>
               <div>
@@ -148,11 +148,10 @@ hr {
         </div>
         
       <div class"footer">
-          <a href="https://arcinvoice.com">
-          <img class="footer-logo" src="https://i.postimg.cc/C5fxh51H/Arc-Invoice-Logo2.png"/>
+          <img class="footer-logo" src="https://cdn.discordapp.com/attachments/902222411368370219/957661005280845874/Invoice_Deck-logos_black.png"/>
         </a>
       </div>
-    <p style="text-align: center">Make beautiful invoice for free at arcinvoice.com</p>
+    <p style="text-align: center">Make beautiful invoice for free at Invoice Deck</p>
     </div>
     </body>
 </html>`

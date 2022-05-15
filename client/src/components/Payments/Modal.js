@@ -166,7 +166,7 @@ const Modal = ({ setOpen, open, invoice }) => {
                 fullWidth 
                 style={{padding: 10}} 
                 variant="outlined" 
-                onChange={(e) => setPayment({...payment, amountPaid: e.target.value})}
+                onChange={(e) => setPayment({...payment, amountPaid:e.target.value})}
                 value={payment.amountPaid}
             />
 

@@ -59,18 +59,6 @@ const NavBar = () => {
       </a>
     </li> */}
     <li className="nav-item" id="themeButton">
-      <a href="/addProject" className="nav-link">
- <img src="https://img.icons8.com/ios-glyphs/30/ffffff/add-property.png"/>
-      <span className="link-text">Add Project</span>
-      </a>
-    </li>
-    <li className="nav-item" id="themeButton">
-      <a href="/settings" className="nav-link">
-      <img src="https://img.icons8.com/windows/32/ffffff/estimate.png"/>
-      <span className="link-text">Estimate</span>
-      </a>
-    </li>
-    <li className="nav-item" id="themeButton">
       <a href="/settings" className="nav-link">
      <img src="https://img.icons8.com/external-justicon-lineal-justicon/30/ffffff/external-setting-notifications-justicon-lineal-justicon.png"/><span className="link-text">Settings</span>
       </a>

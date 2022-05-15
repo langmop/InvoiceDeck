@@ -149,7 +149,8 @@ const InvoiceDetails = () => {
   //SEND PDF INVOICE VIA EMAIL
   const sendPdf = (e) => {
     e.preventDefault()
-    setSendStatus('loading')
+    setSendStatus('loading');
+    console.log(`${process.env.REACT_APP_API}/send-pdf`);
     axios.post(`${process.env.REACT_APP_API}/send-pdf`, 
     { name: invoice.client.name,
       address: invoice.client.address,
