@@ -26,24 +26,24 @@ const NavBar = () => {
     </li>
     <li className="nav-item">
       <Link to="/dashboard" className="nav-link">
-      <img src="https://img.icons8.com/ios-glyphs/30/ffffff/dashboard.png"/> <span className="link-text">Dashboard</span>
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/dashboard.png"/> <span className="link-text">Dashboard</span>
       </Link>
     </li>
     
     <li className="nav-item">
       <a href="/invoice" className="nav-link">
-     <img src="https://img.icons8.com/ios-glyphs/30/ffffff/add--v1.png"/> <span className="link-text">Create</span>
+     <img src="https://img.icons8.com/ios-glyphs/30/000000/add--v1.png"/> <span className="link-text">Create</span>
       </a>
     </li>
     <li className="nav-item">
       <a href="/invoices" className="nav-link">
-      <img src="https://img.icons8.com/ios-glyphs/30/ffffff/invoice.png"/>
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/invoice.png"/>
       <span className="link-text">Invoices</span>
       </a>
     </li>
     <li className="nav-item">
       <a href="/customers" className="nav-link">
-      <img src="https://img.icons8.com/material-rounded/24/ffffff/gender-neutral-user.png"/>
+      <img src="https://img.icons8.com/material-rounded/24/000000/gender-neutral-user.png"/>
        <span className="link-text">Customers</span>
       </a>
     </li>
@@ -60,7 +60,7 @@ const NavBar = () => {
     </li> */}
     <li className="nav-item" id="themeButton">
       <a href="/settings" className="nav-link">
-     <img src="https://img.icons8.com/external-justicon-lineal-justicon/30/ffffff/external-setting-notifications-justicon-lineal-justicon.png"/><span className="link-text">Settings</span>
+     <img src="https://img.icons8.com/external-justicon-lineal-justicon/30/000000/external-setting-notifications-justicon-lineal-justicon.png"/><span className="link-text">Settings</span>
       </a>
     </li>
   </ul>
