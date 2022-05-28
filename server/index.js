@@ -42,7 +42,7 @@ var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'invoicedeck@gmail.com',
-        pass: 'Border@1980'
+        pass: ''
     }
 });
 
